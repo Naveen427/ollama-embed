@@ -1,0 +1,29 @@
+POST http://localhost:8080/load-pdf
+
+#######
+
+POST http://localhost:8080/load-json
+
+#######
+GET http://localhost:8080/questions?question="what are account operations"
+
+
+#######
+GET http://localhost:8080/questions?question="what are payment initiation operations, could you provide endpoints too    "
+
+#######
+GET http://localhost:8080/questions?question="how modulr helped Funding Circle to scale"
+
+
+#####
+GET http://localhost:8080/questions?question="What did Funding Circle's Product manager said about Modulr"
+
+####
+
+GET http://localhost:8080/question?question="What's the time period where Funding Circle's payment failre rate was halved"
+
+#####
+
+GET http://localhost:8080/question?question="What's the exact comment from Chris Wood"
+
+
