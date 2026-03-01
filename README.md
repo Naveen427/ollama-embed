@@ -8,8 +8,8 @@ with embeddinggemma for embeddings - https://ollama.com/library/embeddinggemma
 and gemma3 chat - https://ollama.com/library/gemma3
 
 place your pdf or json in the /resources/files and replace the file names in IngestionService.java
-- <your-pdf-file-name> : PDF file name
-- <your-json-file-name> : json file name.
+- `<your-pdf-file-name>` : PDF file name
+- `<your-json-file-name>` : json file name.
 
 Update the DB details in compose.yml to run pgvector DB in the container.
 Update the DB properties in the application.properties file.
